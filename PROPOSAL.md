@@ -66,7 +66,7 @@ A digital platform that combines **mentorship**, **networking**, and **skill-bui
 - **Features**: Input validation and error handling
 - **Use Case**: User inquiries and career applications
 
-### 5. Location-Based Features with HERE API (Planned)
+### 4. Location-Based Features with HERE API (Planned)
 - **Technology**: HERE Maps API for geolocation services
 - **Purpose**: Enhance mentor matching with precise location data
 - **Features**:
@@ -103,7 +103,7 @@ A digital platform that combines **mentorship**, **networking**, and **skill-bui
 - **Live Website**: https://nehaldesign07.wixsite.com/sheleadstogether
 - **Features**: 
   - Home page with mentor discovery
-  - Mentor profile pages
+  - Mentor profile
   - Filter and search functionality
   - **Backend Integration**: Connected to Node.js API for mentor data
 
