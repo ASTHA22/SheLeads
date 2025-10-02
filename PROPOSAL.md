@@ -320,8 +320,7 @@ SheLeads aims to:
 
 ## 🔗 Links
 - **Live Demo**: https://nehaldesign07.wixsite.com/sheleadstogether
-- **GitHub Repository**: [Add your repo link]
-- **Presentation**: [Add your presentation link]
+- **GitHub Repository**: https://github.com/ASTHA22/SheLeads
 
 ---
 
