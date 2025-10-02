@@ -54,7 +54,11 @@ const mentors = [
 
 // GET /api/mentors - List all mentors
 app.get('/api/mentors', (req, res) => {
-  res.json(mentors);
+  res.json({
+    version: '2.0',
+    lastUpdated: new Date().toISOString(),
+    mentors: mentors
+  });
 });
 
 // POST /api/match - Mentor matchmaking with scoring
