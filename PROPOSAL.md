@@ -66,6 +66,24 @@ A digital platform that combines **mentorship**, **networking**, and **skill-bui
 - **Features**: Input validation and error handling
 - **Use Case**: User inquiries and career applications
 
+### 5. Location-Based Features with HERE API (Planned)
+- **Technology**: HERE Maps API for geolocation services
+- **Purpose**: Enhance mentor matching with precise location data
+- **Features**:
+  - **Geocoding**: Convert city names to coordinates (lat/lng)
+  - **Distance Calculation**: Calculate distances between mentors and mentees
+  - **Location-Based Filtering**: Find mentors within specific radius
+  - **Map Integration**: Display mentor locations on interactive maps
+- **Implementation**:
+  - Mentor profiles include coordinates (lat, lng) for precise location
+  - Backend stores location data for distance calculations
+  - Ready for integration with HERE Maps API for advanced features
+- **Use Cases**:
+  - Find mentors within 50km radius
+  - Calculate travel time between locations
+  - Display mentor network on interactive map
+  - Location-based mentor recommendations
+
 #### Technical Implementation:
 - **Middleware**: Express.js for routing and middleware
 - **Error Handling**: Comprehensive try-catch blocks
@@ -73,6 +91,7 @@ A digital platform that combines **mentorship**, **networking**, and **skill-bui
 - **Response Format**: JSON with consistent structure
 - **Scalability**: Stateless design ready for horizontal scaling
 - **Database Integration**: Structured for MongoDB/PostgreSQL migration
+- **Location Services**: HERE API ready for geocoding and mapping
 
 ---
 
@@ -220,12 +239,13 @@ curl -X POST https://sheleads-backend.onrender.com/api/contact \
 
 | Component | Technology |
 |-----------|-----------|
-| **Frontend** | Wix + Velo (JavaScript), React.js (Planned)|
+| **Frontend** | Wix + Velo (JavaScript), React.js (Planned) |
 | **Backend** | Node.js + Express |
 | **Database** | Wix Data Collections (MVP), MongoDB Atlas (Production) |
 | **Authentication** | Wix Users (MVP), OAuth2 (Planned) |
 | **Deployment** | Wix (Frontend), Render/AWS (Backend) |
 | **AI/ML** | Custom matching algorithm (scoring-based) |
+| **Location Services** | HERE Maps API (Geocoding, Maps, Distance Calculation) |
 
 ---
 
@@ -250,6 +270,7 @@ curl -X POST https://sheleads-backend.onrender.com/api/contact \
 - [ ] Anonymous support forum
 
 ### 📅 Planned for Future
+- [ ] **HERE API integration** for geocoding and mapping
 - [ ] Mobile app (Flutter)
 - [ ] Advanced AI/ML matching with NLP
 - [ ] Email notifications
