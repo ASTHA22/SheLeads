@@ -239,7 +239,7 @@ curl -X POST https://sheleads-backend.onrender.com/api/contact \
 
 | Component | Technology |
 |-----------|-----------|
-| **Frontend** | Wix + Velo (JavaScript), React.js (Planned) |
+| **Frontend** | Wix + Velo (JavaScript), Figma, React.js (Planned) |
 | **Backend** | Node.js + Express |
 | **Database** | Wix Data Collections (MVP), MongoDB Atlas (Production) |
 | **Authentication** | Wix Users (MVP), OAuth2 (Planned) |
