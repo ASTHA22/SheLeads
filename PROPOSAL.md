@@ -243,7 +243,7 @@ curl -X POST https://sheleads-backend.onrender.com/api/contact \
 | **Backend** | Node.js + Express |
 | **Database** | Wix Data Collections (MVP), MongoDB Atlas (Production) |
 | **Authentication** | Wix Users (MVP), OAuth2 (Planned) |
-| **Deployment** | Wix (Frontend), Render/AWS (Backend) |
+| **Deployment** | Wix (Frontend), Render (Backend) |
 | **AI/ML** | Custom matching algorithm (scoring-based) |
 | **Location Services** | HERE Maps API (Geocoding, Maps, Distance Calculation) |
 
