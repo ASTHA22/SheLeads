@@ -20,33 +20,33 @@ app.use(bodyParser.json());
 const mentors = [
   {
     id: 1,
-    name: 'Aarushi Sharma',
-    role: 'Engineering Manager',
+    name: 'Amaira Jaden',
+    role: 'Manager',
     expertise: ['leadership', 'tech', 'communication'],
     location: 'Bangalore',
     lat: 12.9716,
     lng: 77.5946,
-    bio: '10+ years in tech, passionate about women in leadership.'
+    bio: 'Experienced manager passionate about women in leadership and technology.'
   },
   {
     id: 2,
-    name: 'Priya Singh',
-    role: 'Product Lead',
-    expertise: ['product', 'negotiation', 'decision-making'],
+    name: 'Nehal Mishra',
+    role: 'UI/UX Designer',
+    expertise: ['design', 'user experience', 'product'],
     location: 'Mumbai',
     lat: 19.0760,
     lng: 72.8777,
-    bio: 'Product management expert and mentor.'
+    bio: 'Creative UI/UX designer with focus on user-centered design.'
   },
   {
     id: 3,
-    name: 'Neha Verma',
-    role: 'Data Scientist',
-    expertise: ['data', 'ai', 'leadership'],
+    name: 'Aisha Singh',
+    role: 'Developer',
+    expertise: ['development', 'programming', 'tech'],
     location: 'Delhi',
     lat: 28.6139,
     lng: 77.2090,
-    bio: 'Data science leader and advocate for diversity.'
+    bio: 'Full-stack developer passionate about coding and mentoring.'
   }
 ];
 
